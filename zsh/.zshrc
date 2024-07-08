@@ -34,6 +34,9 @@ export MANROFFOPT="-c"
 export EDITOR="nvim"
 export PATH=$PATH:/usr/local/go/bin:~/.cargo/bin
 
+export LIBGL_ALWAYS_INDIRECT=0
+export GALLIUM_DRIVER=llvmpipe
+
 if ! [[ "$PATH" =~ "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32:/mnt/c/Program\ Files/Microsoft\ VS\ Code/bin:" ]]
 then
 	    export PATH=/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32:/mnt/c/Program\ Files/Microsoft\ VS\ Code/bin:$PATH
